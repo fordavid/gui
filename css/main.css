@@ -1,0 +1,124 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+
+header{
+    margin: 0px;
+
+}
+
+nav{
+    justify-content: center;
+    align-content: center;
+    margin-top: 0px; 
+    background: #2B5C6B;
+}
+
+nav h1{
+    margin: 15px auto;
+    color: #FFF;
+}
+
+nav .nav_text{
+    color: #FFF;
+    padding: 15px;
+    justify-content: center;
+    align-content: center;
+    width: 65%;
+    margin: 15px auto;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+nav .text_white_bg{
+    background: #FFF;
+    color: black;
+}
+
+.start_info{
+    display: block;
+    margin: 15px auto;
+    width: 50%;
+    height: 50%;
+}
+
+.start_info img{
+    margin: 15px auto;
+    width: 80%;
+    height: 80%;
+    justify-content: center;
+    align-content: center;
+}
+
+.start_info button{
+    /* margin-top: 15px; */
+    width: 250px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 40px;
+    color: #d3dfe4;
+    background-color: #2b5c6b;
+    margin: 15px auto;
+    text-align: center;
+    display: block;
+}
+
+/* Start Page */
+.categories h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 30px;
+}
+
+.categories .search_bar{
+    text-align: center;
+    margin: 15px auto;
+    justify-content: center;
+    display: block;
+    background-color: #dcdcdc;
+    border: none;
+    border-radius: 15px;
+    width: 350px;
+    height: 30px;
+}
+
+.category_cards_main{
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: 1fr;
+    gap: 15px;
+    justify-content: center;
+    margin: auto;
+}
+
+.category_card{
+    width: 300px;
+    height: 320px;
+    margin: 20px;
+}
+
+.category_card img{
+    width: 300px;
+    height: 320px;
+}
+
+.category_card span{
+    text-align: center;
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* footer */
+.contact_info{
+    display: block;
+    margin: 30px auto 0px auto;
+    text-align: center;
+    background-color: darkgray;
+    padding: 15px;
+}
+
